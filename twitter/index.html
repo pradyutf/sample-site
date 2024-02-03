@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+       
+        <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/033/original/SST_Logo.png?1706888781" alt="">
+        <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/032/original/scaler-social.png?1706888764" alt="">
+    </div>
+    <div class="content">
+        <div class="left">
+            
+           <div class="formm">
+            <form id="comment-form">
+                <label for="comment" class="comment-label">Post your thoughts here</label>
+                <div class="postbox">
+                    <div class="icon"><img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt=""></div>
+
+                    <textarea id="text" name="text" rows="4" class="text" placeholder="Type your thoughts here"></textarea>
+                    <button type="submit" class="submit">Post</button>
+                </div>
+            </form>
+            </div>
+            
+            
+        </div>
+        <div class="right">
+            
+            <h2>Your Feed</h2>
+            <div id="comment-section">
+                <div class="comment">
+                    
+                        <div class="icon"><img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt=""></div>
+                        <div class="delete" onclick="delete_(this)"><img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/027/original/delete.png?1706888643" alt=""></div>
+                    
+                    <div class="comment-text">This is a comment.</div>
+                    <div class="reply">
+                        <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/026/original/comment.png?1706888619" alt="">
+                    </div>
+                </div>
+                <div class="comment">
+                    
+                        <div class="icon"><img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt=""></div>
+                        <div class="delete" onclick="delete_(this)"><img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/027/original/delete.png?1706888643" alt=""></div>
+                   
+                    
+                    <!-- <div class="icon"><img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/031/original/profile_image.png?1706888739" alt=""></div> -->
+                    <div class="comment-text">This is another comment.</div>
+                    <div class="reply">
+                        <img src="https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/064/026/original/comment.png?1706888619" alt="">
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+
+ 
+    <script src="script.js"></script>
+</body>
+</html>
+
